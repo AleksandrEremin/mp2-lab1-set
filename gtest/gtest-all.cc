@@ -37,6 +37,7 @@
 // This line ensures that gtest.h can be compiled on its own, even
 // when it's fused.
 #include "gtest.h"
+#define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING
 
 // The following lines pull in the real gtest *.cc files.
 // Copyright 2005, Google Inc.

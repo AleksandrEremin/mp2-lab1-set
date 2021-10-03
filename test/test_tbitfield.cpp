@@ -1,6 +1,6 @@
-#include "pch.h"
+//#include "pch.h"
 
-//#include "../gtest/gtest.h"
+#include "../gtest/gtest.h"
 
 #include "tbitfield.h"
 
@@ -170,7 +170,7 @@ TEST(TBitField, or_operator_applied_to_bitfields_of_equal_size)
   expBf.SetBit(2);
   expBf.SetBit(3);
 
-  EXPECT_EQ(expBf, bf1 | bf2);
+ EXPECT_EQ(expBf, bf1 | bf2);
 }
 
 TEST(TBitField, or_operator_applied_to_bitfields_of_non_equal_size)
