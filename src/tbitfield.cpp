@@ -56,7 +56,7 @@ TELEM TBitField::GetMemMask(const int n) const // битовая маска дл
 		throw "error ";
 	}
 	else
-		return (TELEM)1 << (n) % (BITS_IN_ONE_MEM);
+		return ((TELEM)1) << (n) % (BITS_IN_ONE_MEM);
 
 }
 
